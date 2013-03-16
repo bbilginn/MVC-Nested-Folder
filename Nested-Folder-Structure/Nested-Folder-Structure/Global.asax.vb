@@ -14,7 +14,7 @@ Public Class MvcApplication
         RouteConfig.RegisterRoutes(RouteTable.Routes)
         BundleConfig.RegisterBundles(BundleTable.Bundles)
 
-        ViewEngines.Engines.Add(NestedFolderStructure.NestedViewEngine.Engine)
+        ViewEngines.Engines.Add(NestedView.Engine)
 
     End Sub
 End Class
