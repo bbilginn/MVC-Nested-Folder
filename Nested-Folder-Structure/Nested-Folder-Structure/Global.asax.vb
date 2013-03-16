@@ -13,5 +13,8 @@ Public Class MvcApplication
         FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters)
         RouteConfig.RegisterRoutes(RouteTable.Routes)
         BundleConfig.RegisterBundles(BundleTable.Bundles)
+
+        ViewEngines.Engines.Add(nfs4v.NestedViewEngine.Engine)
+
     End Sub
 End Class

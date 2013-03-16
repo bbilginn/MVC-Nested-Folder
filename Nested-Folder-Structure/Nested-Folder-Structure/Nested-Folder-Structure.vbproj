@@ -157,6 +157,9 @@
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\WebApiConfig.vb" />
+    <Compile Include="Controllers\HomeController.vb" />
+    <Compile Include="Controllers\MyFolderCategoryName\MyController.vb" />
+    <Compile Include="Controllers\MyFolderCategoryName\VIPController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -255,6 +258,9 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
     <Content Include="packages.config" />
+    <Content Include="Views\Home\Index.vbhtml" />
+    <Content Include="Views\MyFolderCategoryName\My\Index.vbhtml" />
+    <Content Include="Views\MyFolderCategoryName\VIP\Index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
@@ -289,8 +295,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\MyFolderCategoryName\_Shared\Layout\" />
+    <Folder Include="Views\MyFolderCategoryName\_Shared\Partial\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\nfs4v\nfs4v.vbproj">
+      <Project>{1f0d7f88-c145-4841-8657-06f1e79bf9fd}</Project>
+      <Name>nfs4v</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
