@@ -11,7 +11,7 @@
     <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>Nested_Folder_Structure</RootNamespace>
-    <AssemblyName>Nested-Folder-Structure</AssemblyName>
+    <AssemblyName>Nested-Folder-Structure-Proj</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <OptionExplicit>On</OptionExplicit>
     <OptionCompare>Binary</OptionCompare>
@@ -30,7 +30,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>Nested-Folder-Structure.xml</DocumentationFile>
+    <DocumentationFile>Nested-Folder-Structure-Proj.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -39,7 +39,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>Nested-Folder-Structure.xml</DocumentationFile>
+    <DocumentationFile>Nested-Folder-Structure-Proj.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
@@ -225,9 +225,9 @@
     <Folder Include="Views\MyFolderCategoryName\_Shared\Partial\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\nfs4v\nfs4v.vbproj">
+    <ProjectReference Include="..\nfs4v\Nested-Folder-Structure.vbproj">
       <Project>{1f0d7f88-c145-4841-8657-06f1e79bf9fd}</Project>
-      <Name>nfs4v</Name>
+      <Name>Nested-Folder-Structure</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

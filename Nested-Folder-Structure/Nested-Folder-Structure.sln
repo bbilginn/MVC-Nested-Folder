@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Nested-Folder-Structure", "Nested-Folder-Structure\Nested-Folder-Structure.vbproj", "{EF05D7B6-E60E-47A2-8371-36F6EB8229AE}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Nested-Folder-Structure-Proj", "Nested-Folder-Structure\Nested-Folder-Structure-Proj.vbproj", "{EF05D7B6-E60E-47A2-8371-36F6EB8229AE}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "nfs4v", "nfs4v\nfs4v.vbproj", "{1F0D7F88-C145-4841-8657-06F1E79BF9FD}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Nested-Folder-Structure", "nfs4v\Nested-Folder-Structure.vbproj", "{1F0D7F88-C145-4841-8657-06F1E79BF9FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
